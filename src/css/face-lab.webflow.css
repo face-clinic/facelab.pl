@@ -289,6 +289,7 @@ img {
   bottom: auto;
   z-index: 1;
   overflow: hidden;
+  mix-blend-mode: multiply;
 }
 
 .bg {
@@ -602,6 +603,7 @@ img {
   overflow: hidden;
   height: 160px;
   background-color: #6b6b6b;
+  mix-blend-mode: multiply;
 }
 
 .div_stopka {
@@ -631,10 +633,23 @@ img {
   z-index: 1;
   width: 100vw;
   height: 160px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 174, 255, 0.08)), to(rgba(0, 174, 255, 0))), url('../images/BG_Light_Mirror.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 174, 255, 0.08), rgba(0, 174, 255, 0)), url('../images/BG_Light_Mirror.jpg');
+  background-position: 0px 0px, 50% 0%;
+  background-size: auto, 2355px;
+  background-repeat: repeat, repeat;
+  mix-blend-mode: lighten;
+}
+
+.top-cover.papier {
+  display: none;
   background-image: url('../images/BG_Light_Mirror.jpg');
   background-position: 50% 0%;
   background-size: 2355px;
   background-repeat: repeat;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  mix-blend-mode: multiply;
 }
 
 .link-block {
@@ -1312,6 +1327,7 @@ img {
   right: 0%;
   bottom: 0%;
   z-index: 3;
+  display: block;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: horizontal;
@@ -2315,6 +2331,15 @@ img {
 .link-2 {
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.div-block-95 {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 991px) {
