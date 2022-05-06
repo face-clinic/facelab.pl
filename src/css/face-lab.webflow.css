@@ -908,6 +908,7 @@ img {
   right: auto;
   bottom: auto;
   z-index: 0;
+  display: block;
   opacity: 0.44;
 }
 
@@ -1702,6 +1703,7 @@ img {
 }
 
 .section-innowacje {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1731,8 +1733,7 @@ img {
 }
 
 .video {
-  width: 70%;
-  height: auto;
+  width: 100%;
 }
 
 .image_inn_2 {
@@ -1743,7 +1744,7 @@ img {
 
 .multiply_1 {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2340,6 +2341,28 @@ img {
   right: 0%;
   bottom: 0%;
   overflow: hidden;
+}
+
+.container-4 {
+  height: 50%;
+}
+
+.film_20 {
+  overflow: hidden;
+  width: 70%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border-radius: 20px;
+}
+
+.html-embed-3 {
+  margin-top: 20px;
+}
+
+.html-embed-4 {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 991px) {
