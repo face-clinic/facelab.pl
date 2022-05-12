@@ -1,3 +1,39 @@
+.w-basic-heading--styledAs-h1 {
+  font-size: 38px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+
+.w-basic-heading--styledAs-h2 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 20px;
+}
+
+.w-basic-heading--styledAs-h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.w-basic-heading--styledAs-h4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.w-basic-heading--styledAs-h5 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.w-basic-heading--styledAs-h6 {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
 .w-checkbox {
   display: block;
   margin-bottom: 5px;
@@ -907,8 +943,6 @@ img {
   top: -13%;
   right: auto;
   bottom: auto;
-  z-index: 0;
-  display: block;
   opacity: 0.44;
 }
 
@@ -1733,6 +1767,7 @@ img {
 }
 
 .video {
+  display: none;
   width: 100%;
 }
 
@@ -2340,6 +2375,7 @@ img {
   top: 0%;
   right: 0%;
   bottom: 0%;
+  z-index: -1;
   overflow: hidden;
 }
 
@@ -2358,6 +2394,7 @@ img {
 }
 
 .html-embed-3 {
+  display: none;
   margin-top: 20px;
 }
 
